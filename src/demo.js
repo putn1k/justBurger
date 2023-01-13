@@ -1,4 +1,4 @@
-const burger = new justBurger( {
+const burger = new JustBurger( {
   animationSpeed: 400,
   activeClass: 'custom-class',
   menuId: 'menuList',

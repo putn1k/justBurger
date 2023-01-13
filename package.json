@@ -1,7 +1,7 @@
 {
-  "name": "justBurger",
-  "version": "0.1.0",
-  "description": "justBurger builder",
+  "name": "JustBurger",
+  "version": "0.1.1",
+  "description": "JustBurger builder",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
