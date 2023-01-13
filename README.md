@@ -1,4 +1,4 @@
-# justBurger
+# JustBurger v.0.1.1
 
 Простой и лёгкий плагин для кнопки бургер-меню
 
@@ -9,15 +9,15 @@
 + __Доступность__. Функционал библиотеки отвечает правилам доступности.
 + __Настройка с помощью CSS__. Вы можете легко менять внешний вид, расположение с помощью CSS.
 
-1. Скачайте js-библиотеку justBurger.min.js и файл стилей justBurger.min.css
+1. Скачайте js-библиотеку just-burger.min.js и файл стилей just-burger.min.css
 2. Подключите эти файлы к проекту
 ```html
-  <link rel="stylesheet" href="justBurger.min.css">
-  <script src="justBurger.min.js" defer></script>
+  <link rel="stylesheet" href="just-burger.min.css">
+  <script src="just-burger.min.js" defer></script>
 ```
 3. Поместите в ваш html-документ следующую разметку:
 ```html
-<button class="just-burger" aria-label="Меню" id="justBurger">
+<button class="just-burger" aria-label="Меню" id="just-burger">
   <svg class="just-burger__icon" width="30" viewBox="0 0 50 50" aria-hidden="true">
     <path class="just-burger__line just-burger__line--top"
       d="M7 9.5H43.2105C46.5807 9.5 50 12.2586 50 17.0692C50 21.8798 47.5313 24.5 43.2105 24.5H25" />
@@ -30,7 +30,7 @@
 
 4. Разместите следующий JS-код для подключения табов:
 ```javascript
-const burger = new justBurger();
+const burger = new JustBurger();
 ```
 
 ## Методы и свойства
@@ -38,7 +38,7 @@ const burger = new justBurger();
 Библиотека поддерживает некоторые свойства и события
 
 ```javascript
-const burger = new justBurger({
+const burger = new JustBurger({
   animationSpeed: 400,
   activeClass: 'custom-class',
   menuId: 'menuList',
